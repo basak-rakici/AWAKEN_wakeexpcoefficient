@@ -25,14 +25,45 @@ Calibrated k_w – optimized using SCADA power data
 The analysis is performed using FLORIS, leveraging LiDAR and SCADA data from AWAKEN to characterize inflow conditions, turbine power, and wake behavior.
 
 ## Repository Contents
-Repository Structure
+### Repository Structure
 
-DataAnalysis.ipynb: Performs stability and TI checks, identifies time periods of interest, and analyzes inflow conditions.
+  DataAnalysis.ipynb: Performs stability and TI checks, identifies time periods of interest, and analyzes inflow conditions.
+  
+  WakeExpansionCoeff.ipynb: Implements wake expansion coefficient cases, calculates power errors and RMSE, and visualizes velocity fields and wake effects.
+  
+  KingPlainsData/: Contains all input data required for the study:
+    
+    Lidars/:
+    
+      A1_profiling_lidar_10min.nc
+      
+      A1_scanning_lidar_10min.nc
+      
+      A2_profiling_lidar_2min.nc
+      
+      A2_scanning_lidar_10min.nc
+      
+      B_profiling_lidar_10min.nc
+      
+      E36_scanning_lidar_10min.nc
+      
+      Read_netcdf_lidar.py – helper script to read LiDAR NetCDF files
 
-WakeExpansionCoeff.ipynb: Implements wake expansion coefficient cases, calculates power errors and RMSE, and visualizes velocity fields and wake effects.
+  Sonic_anemometers/:
+    
+    A1_sonic.nc
+    
+    A2_sonic.nc
+    
+    A5_sonic.nc
+    
+    Read_netcdf_sonic.py – helper script to read sonic anemometer NetCDF files
 
-KingPlainsData/: Contains input data, including SCADA data for King Plains, turbine specifications for Armadillo Flats and King Plains wind farms, and sonic anemometer and LiDAR data for A1, A2, B, and E36 sites.
-
+  KP_SCADA_phase3.nc – SCADA data for King Plains wind farm
+  
+  turbine_pc.xlsx – turbine power and thrust coefficients
+  
+  turbines_farmrun.csv – turbine layout and farm information
 requirements.txt
 
 ## Key Findings
