@@ -33,6 +33,8 @@ WakeExpansionCoeff.ipynb: Implements wake expansion coefficient cases, calculate
 
 KingPlainsData/: Contains input data, including SCADA data for King Plains, turbine specifications for Armadillo Flats and King Plains wind farms, and sonic anemometer and LiDAR data for A1, A2, B, and E36 sites.
 
+requirements.txt
+
 ## Key Findings
 
 Stable ABL conditions lead to reduced wake recovery, making conventional k_w assumptions less accurate.
