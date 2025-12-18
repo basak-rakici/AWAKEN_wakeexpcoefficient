@@ -50,10 +50,17 @@ All code and processed datasets used for this study are available in this reposi
 ## References
 
 Bodini, N., Abraham, A., Doubrawa, P., Letizia, S., Thedin, R., Agarwal, N., Carmo, B., Cheung, L., Corrêa Radünz, W., Gupta, A., Goldberger, L., Hamilton, N., Herges, T., Hirth, B., Iungo, G. V., Jordan, A., Kaul, C., Klein, P., Krishnamurthy, R., … Wharton, S. (2024). An international benchmark for wind plant wakes from the American WAKE ExperimeNt (AWAKEN). Journal of Physics: Conference Series, 2767(9), 092034. https://doi.org/10.1088/1742-6596/2767/9/092034
+
 Puccioni, M., Iungo, G. V., Moss, C., Solari, M. S., Letizia, S., Bodini, N., & Moriarty, P. (2023). LiDAR Measurements to Investigate Farm-to-Farm Interactions at the AWAKEN Experiment. Journal of Physics: Conference Series, 2505(1), 012045. https://doi.org/10.1088/1742-6596/2505/1/012045
+
 AWAKEN Consortium. (2023). AWAKEN benchmark dataset and documentation. Retrieved November 1, 2025, from https://awaken-benchmark.readthedocs.io/en/latest/
+
 Peña, A., Réthoré, P.-E., & van der Laan, M. P. (2016). On the application of the Jensen wake model using a turbulence-dependent wake decay coefficient: The Sexbierum case. Wind Energy, 19(4), 763–776. https://doi.org/10.1002/we.1863
+
 Göçmen, T., Laan, P. van der, Réthoré, P.-E., Diaz, A. P., Larsen, G. Chr., & Ott, S. (2016). Wind turbine wake models developed at the technical university of Denmark: A review. Renewable and Sustainable Energy Reviews, 60, 752–769. https://doi.org/10.1016/j.rser.2016.01.113
+
 National Renewable Energy Laboratory. (n.d.). FLORIS wake models. https://nrel.github.io/floris/wake_models.html
+
 C. M. St. Martin, J. K. Lundquist, A. Clifton, G. S. Poulos, and S. J. Schreck, “Wind turbine power production and annual energy production depend on atmospheric stability and turbulence,” Wind Energ. Sci., vol. 1, no. 2, pp. 221–236, Nov. 2016, doi: 10.5194/wes-1-221-2016.
+
 Radünz, W., Carmo, B., Lundquist, J. K., Letizia, S., Abraham, A., Wise, A. S., Sanchez Gomez, M., Hamilton, N., Rai, R. K., & Peixoto, P. S. (2025). Influence of simple terrain on the spatial variability of a low-level jet and wind farm performance in the AWAKEN field campaign. Wind and the atmosphere/Atmospheric physics. https://doi.org/10.5194/wes-2024-166
