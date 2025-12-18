@@ -27,13 +27,13 @@ The analysis is performed using FLORIS, leveraging LiDAR and SCADA data from AWA
 ## Repository Contents
 ### Repository Structure
 
-  DataAnalysis.ipynb: Performs stability and TI checks, identifies time periods of interest, and analyzes inflow conditions.
+  #### DataAnalysis.ipynb: Performs stability and TI checks, identifies time periods of interest, and analyzes inflow conditions.
   
-  WakeExpansionCoeff.ipynb: Implements wake expansion coefficient cases, calculates power errors and RMSE, and visualizes velocity fields and wake effects.
+  #### WakeExpansionCoeff.ipynb: Implements wake expansion coefficient cases, calculates power errors and RMSE, and visualizes velocity fields and wake effects.
   
-  KingPlainsData/: Contains all input data required for the study:
+  #### KingPlainsData/: Contains all input data required for the study:
     
-    Lidars/:
+  ##### Lidars/:
     
       A1_profiling_lidar_10min.nc
       
@@ -49,7 +49,7 @@ The analysis is performed using FLORIS, leveraging LiDAR and SCADA data from AWA
       
       Read_netcdf_lidar.py – helper script to read LiDAR NetCDF files
 
-  Sonic_anemometers/:
+  ##### Sonic_anemometers/:
     
     A1_sonic.nc
     
@@ -59,12 +59,12 @@ The analysis is performed using FLORIS, leveraging LiDAR and SCADA data from AWA
     
     Read_netcdf_sonic.py – helper script to read sonic anemometer NetCDF files
 
-  KP_SCADA_phase3.nc – SCADA data for King Plains wind farm
+  ##### KP_SCADA_phase3.nc – SCADA data for King Plains wind farm
   
-  turbine_pc.xlsx – turbine power and thrust coefficients
+  ##### turbine_pc.xlsx – turbine power and thrust coefficients
   
-  turbines_farmrun.csv – turbine layout and farm information
-requirements.txt
+  ##### turbines_farmrun.csv – turbine layout and farm information
+#### requirements.txt
 
 ## Key Findings
 
